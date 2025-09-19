@@ -1,3 +1,4 @@
+// pages/landing.tsx
 import React from "react";
 import Button from "@/components/Button";
 
@@ -11,6 +12,7 @@ const Landing: React.FC = () => {
         <Button title="Small - Rounded Sm" styles="text-sm px-2 py-1 rounded-sm" />
         <Button title="Small - Rounded Md" styles="text-sm px-2 py-1 rounded-md" />
         <Button title="Small - Rounded Full" styles="text-sm px-2 py-1 rounded-full" />
+        <Button title="Small - Rounded Lg" styles="text-sm px-2 py-1 rounded-lg" />
       </div>
 
       {/* Medium Buttons */}
@@ -18,6 +20,7 @@ const Landing: React.FC = () => {
         <Button title="Medium - Rounded Sm" styles="text-base px-4 py-2 rounded-sm" />
         <Button title="Medium - Rounded Md" styles="text-base px-4 py-2 rounded-md" />
         <Button title="Medium - Rounded Full" styles="text-base px-4 py-2 rounded-full" />
+        <Button title="Medium - Rounded Lg" styles="text-base px-4 py-2 rounded-lg" />
       </div>
 
       {/* Large Buttons */}
@@ -25,6 +28,7 @@ const Landing: React.FC = () => {
         <Button title="Large - Rounded Sm" styles="text-lg px-6 py-3 rounded-sm" />
         <Button title="Large - Rounded Md" styles="text-lg px-6 py-3 rounded-md" />
         <Button title="Large - Rounded Full" styles="text-lg px-6 py-3 rounded-full" />
+        <Button title="Large - Rounded Lg" styles="text-lg px-6 py-3 rounded-lg" />
       </div>
     </main>
   );

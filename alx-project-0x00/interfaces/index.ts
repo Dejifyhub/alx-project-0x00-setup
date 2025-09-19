@@ -1,7 +1,9 @@
 export interface PillProps {
   title: string
 }
+// interfaces/index.ts
 export interface ButtonProps {
   title: string;
-  styles?: string; // make it optional so you can reuse it flexibly
+  styles: string; // required now
 }
+
